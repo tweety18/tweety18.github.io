@@ -8,16 +8,80 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+	<svg style="display: none">
+		<symbol id="arrow" viewBox="0 0 48 48">
+			<g>
+				<path d="M14.83 16.42l9.17 9.17 9.17-9.17 2.83 2.83-12 12-12-12z"/>
+			</g>
+		</symbol>
+	</svg>
 	<header class="header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">logo</div>
-				<div class="col-md-6">menu</div>
-				<div class="col-md-3">search</div>
-			</div>
+				<div class="col-md-3">
+					<div class="logo">
+						<a href="">
+							<img src="images/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<nav>
+						<ul class="menu">
+							<li>
+								<a href="" class="item_link">Home</a>
+							</li>
+							<li class="products">
+								<a href="" class="item_link">Products <svg class="arrow">
+									<use xlink:href="#arrow"></use>
+								</svg></a>
+
+								<ul class="down_list">
+									<li><a href="" class="down_list_link">Lorem ipsum dolor</a></li>
+									<li><a href="" class="down_list_link">Sit amet</a></li>
+									<li><a href="" class="down_list_link">Consectetur adipisicing</a></li>
+									<li><a href="" class="down_list_link">Tempor incididunt</a></li>
+									<li><a href="" class="down_list_link">Dolore magna aliqua</a></li>
+									<li><a href="" class="down_list_link">Ut enim ad minim veniam</a></li>
+									<li><a href="" class="down_list_link">Quis nostrud</a></li>
+								</ul>
+
+								
+
+							</li>
+							<li>
+								<a href="" class="item_link">Payment</a>
+							</li>
+							<li>
+								<a href="" class="item_link">Shipping</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-3">
+					<div class="menu_search">
+
+						<form action="" method="get">
+							<input type="text" placeholder="search" name="q"><button type="submit" value="search" class="btn_search">
+								<img src="images/search.png" alt="search" class="img_search">
+							</button>
+						</form>
+					</div>
+
+					<div class="menu_cart">
+						<div class="counter">4</div>
+						<button type="buton" value="search" class="btn_cart">
+							<img src="images/cart.png" alt="cart">
+						</button>
+					</div>
+					 <!-- menu_search -->
+				</div> <!-- col-md-3 -->
+			</div>  <!-- row -->
 		</div>
 	</header>
 	<main class="main">Main</main>
 	<footer class="footer">Footer</footer>
+
 </body>
 </html>
