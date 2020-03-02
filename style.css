@@ -401,16 +401,11 @@ body {
 	margin-bottom: 30px;
     margin-left: 16px;
     padding-right: 38px;
-    background-color: rgba(255,255,255,0.3);
     background-image: url(images/cart_white.png);
     background-repeat: no-repeat;
     background-position: 93% 46%;
 }
 
-.more_details:hover {
+.more_details:hover, .add_to_cart:hover {
 	background-color: rgba(255,255,255,0.3);
-}
-
-.add_to_cart:hover {
-	background-color: #2c71b8;
 }
