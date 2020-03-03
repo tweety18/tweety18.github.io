@@ -218,7 +218,7 @@ body {
 	border-right: 1px solid #fff;
 }
 
-.product_block {
+.brear_crumbs {
 	padding: 30px;
 }
 
@@ -226,6 +226,11 @@ body {
 	display: inline-block;
 	color: rgba(255, 255, 255, 0.3);
 }
+
+.branch_item:last-child {
+	text-decoration: underline;
+}
+
 
 .branch_item_link {
 	text-decoration: none;
@@ -238,6 +243,8 @@ body {
 
 .h1_text {
 	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 20px;
 	color: #fff;
 	font-size: 48px;
 	font-weight: 700;
@@ -245,7 +252,8 @@ body {
 
 .sort_by {
 	margin-top: 15px;
-	width: 235px;
+	margin-bottom: 20px;
+	width: 219px;
 	height: 40px;
 	padding: 5px 20px;
 	background-color: #2c71b8;
