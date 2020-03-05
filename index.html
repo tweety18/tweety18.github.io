@@ -92,45 +92,76 @@
 		<div class="slider"></div>
 		<div class="container">
 			<div class="row">
+
 				<div class="col-md-3 device_type">
 					
-					<input type="checkbox" id="text">
-					<label for="text">Text</label>
+					<div class="device_feature_block">
+						<h3 class="device_type_name">device type</h3>
+						<input type="checkbox" id="device_type_laptop">
+						<label for="device_type_laptop">Laptop</label>
+						<input type="checkbox" id="device_type_tablet">
+						<label for="device_type_tablet">Tablet</label>
+					</div>
 
+					<div class="device_feature_block">
+						<h3 class="device_type_name">color</h3>
+						<input type="checkbox" id="color_black">
+						<label for="color_black">Black</label>
+						<input type="checkbox" id="color_red">
+						<label for="color_red">Red</label>
+						<input type="checkbox" id="color_green">
+						<label for="color_green">Green</label>
+						<input type="checkbox" id="color_blue">
+						<label for="color_blue">Blue</label>
+						<input type="checkbox" id="color_orange">
+						<label for="color_orange">Orange</label>
+					</div>
+
+					<div class="device_feature_block margin_bottom">
+						<h3 class="device_type_name">ram</h3>
+						<input type="checkbox" id="ram_1">
+						<label for="ram_1">1GB</label>
+						<input type="checkbox" id="ram_2">
+						<label for="ram_2">2GB</label>
+						<input type="checkbox" id="ram_4">
+						<label for="ram_4">4GB</label>
+						<input type="checkbox" id="ram_6">
+						<label for="ram_6">6GB</label>
+						<input type="checkbox" id="ram_8">
+						<label for="ram_8">8GB</label>
+					</div>
+
+					<div class="more_options">Show more options ...</div>
+
+					<button type="buton" value="more_info" class="two_btns submit_btn">submit</button>
 
 				</div>
 
 
 				<div class="col-md-9">
-					<!-- <div class="brear_crumbs">
+
+
+					<div class="brear_crumbs">
 						<ul class="branch_list">
 							<li class="branch_item"><a href="" class="branch_item_link">Home page</a> &gt;</li>
 							<li class="branch_item"><a href="" class="branch_item_link">Products</a> &gt;</li>
 							<li class="branch_item">Laptops and Tables</li>
 						</ul>
-					</div> -->
-				</div>
-				<!-- product block text============================== -->
-					
-								
-						<!-- <div class="row">
-							<div class="col-md-9">
-								<h1 class="h1_text">Laptops and Tablets</h1>
-							</div>
-							<div class="col-md-3">
+					</div>
 
-									<select name="sort by" class="sort_by">
-										<option value="price" class="sort_by_option">sort by price</option>
-										<option value="name" class="sort_by_option">sort by name</option>
-										<option value="date" class="sort_by_option">sort by date</option>
-										<option value="popularity" class="sort_by_option">sort by popularity</option>
-									</select>
-							</div>
-						</div>					
-					</div> <!-- col-md-9 --> -->
-				<!-- product block text============================== -->
-
-				<!-- <div class="col-md-9">
+					<div class="row">
+						<div class="col-md-9">
+							<h1 class="h1_text">Laptops and Tablets</h1>
+						</div>
+						<div class="col-md-3">
+							<select name="sort by" class="sort_by">
+								<option value="price" class="sort_by_option">sort by price</option>
+								<option value="name" class="sort_by_option">sort by name</option>
+								<option value="date" class="sort_by_option">sort by date</option>
+								<option value="popularity" class="sort_by_option">sort by popularity</option>
+							</select>
+						</div>
+					</div>
 
 					<div class="col-md-3 margin">
 							<div class="device_block">
@@ -153,8 +184,6 @@
 								<button type="buton" value="more_info" class="two_btns add_to_cart">add to cart</button>	
 							</div>
 						</div>
-
-
 
 						<div class="col-md-3 margin">
 							<div class="device_block">
@@ -199,7 +228,7 @@
 								<button type="buton" value="more_info" class="two_btns add_to_cart">add to cart</button>	
 							</div>
 						</div>
-						
+
 						<div class="col-md-3 margin">
 							<div class="device_block">
 								<div class="line1"></div>
@@ -334,10 +363,10 @@
 								<button type="buton" value="more_info" class="two_btns add_to_cart">add to cart</button>	
 							</div>
 					</div>
-					 <!-- col-md-9 product block -->
- -->
-				</div>
-			</div> <!-- row -->
+
+				</div> <!-- col-md-9 product block -->
+				
+			</div> <!-- row product block -->
 		</div> <!-- container -->
 	</main>
 	<footer class="footer">Footer</footer>

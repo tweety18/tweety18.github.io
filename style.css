@@ -1,10 +1,14 @@
-щ* {
+* {
 	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Roboto';
 	background-image: url(images/patt.png);
+}
+
+h1, h2, h3, h4, h5, h6, button, label {
+	font-family: 'Roboto';
 }
 
 /*Header
@@ -213,29 +217,71 @@ body {
 }
 
 .device_type {
-	height: 845px;
 	background-color: rgba(255, 255, 255, 0.3);
 	border-right: 1px solid #fff;
+	padding-top: 30px;
+	padding-left: 30px;
 }
 
 
-/*====================================*/
+/* Left block device type====================================*/
+
+.device_feature_block {
+	margin-bottom: 65px;
+}
+
+.device_type_name {
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 25px;
+
+}
+
+label {
+	color: #fff;
+	display: block;
+	margin-bottom: 25px;
+	font-size: 21px;
+	font-weight: 300;
+}
 
 label:before {
 	content: "";
 	display: inline-block;
-	width: 50px;
-	height: 50px;
-	border:1px solid red;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
 	cursor: pointer;
+	margin-right: 13px;
+
 }
 
 input[type="checkbox"]:checked + label:before {
-	background-color: red;
+	background-color: #fff;
 }
 
 input[type="checkbox"] {
 	display: none;
+}
+
+.margin_bottom {
+	margin-bottom: 0px;
+
+}
+.more_options {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 21px;
+	font-weight: 300;
+	margin-left: 15px;
+}
+
+.submit_btn {
+	margin-left: 16px;
+    margin-bottom: 30px;
 }
 
 
@@ -438,6 +484,6 @@ input[type="checkbox"] {
     background-position: 93% 46%;
 }
 
-.more_details:hover, .add_to_cart:hover {
+.two_btns:hover {
 	background-color: rgba(255,255,255,0.3);
 }
