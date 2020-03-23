@@ -13,7 +13,7 @@ body {
 .header	{
 	display: flex;
 	justify-content: center;
-	background: url(images/header_vegetables.png) no-repeat;
+	background: url(veggie_images/header_vegetables.png) no-repeat;
 	background-size: 100% 100%;
 	background-size: cover;
 }
@@ -135,7 +135,7 @@ body {
 .yellow_block {
 	display: flex;
 	justify-content: center;
-	background: url(images/yellow_background.png);
+	background: url(veggie_images/yellow_background.png);
 	background-size: 100% 100%;
 }
 
@@ -280,7 +280,7 @@ body {
 }
 
 .shadow {
-	background: url(images/shadow.png) no-repeat;
+	background: url(veggie_images/shadow.png) no-repeat;
 	background-position: center center;
 	background-size: 100% 100%;
 	display: flex;
@@ -359,7 +359,7 @@ body {
 .contacts {
 	display: flex;
 	justify-content: center;
-	background: url(images/contacts_photo.png) no-repeat;
+	background: url(veggie_images/contacts_photo.png) no-repeat;
 	background-size: 100% 100%;
 	background-size: cover;
 }
