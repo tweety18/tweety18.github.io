@@ -1,0 +1,626 @@
+/*max-width 1440px
+======================================*/
+
+@media (max-width: 1440px) {
+
+	.specials_item {
+		display: flex;
+    	justify-content: center;
+	}
+
+	.special_item_element3 {
+		flex-direction: row-reverse;
+	}
+
+	.special_item_element5, .special_item_element6 {
+		flex-direction: row;
+	}
+
+	.container {
+		width: 80%;
+		max-width: 1200px;
+		display: flex;
+	}
+
+	.menu_list {
+		margin-bottom: 100px;
+	}
+
+	.margin-bottom1 {
+		margin-bottom: 100px;
+	}
+	
+	.img_item {
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+	}
+	
+	.description_item {
+		width: 200px;
+		height: 200px;
+		background-color: #f8f8f8;
+		text-align: center;
+		padding: 20px 10px;
+	}
+
+	.description_item_p {
+		font-size: 15px;
+	}
+
+	.specials_title_h3 {
+		font-size: 40px;
+		font-weight: 300;
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	
+	.specials_item {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+
+	.yellow_block_elements {
+		padding: 30px;
+	}
+
+	.yellow_block_item {
+		margin-bottom: 0;
+	}
+	
+	.signature {
+		margin-bottom: 20px;
+	}
+
+	.about_us_text_p {
+		font-size: 25px;
+	}
+
+	.non-margin {
+		margin-bottom: 30px;
+	}
+
+	.menu_title {
+		margin-bottom: 0;
+	}
+
+	.dishes_list:last-child {
+		margin-bottom: 0;
+	}
+
+	.dishes_list_item {
+		margin-bottom: 10px;
+	}
+
+	.dishes_list_item_p {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price  {
+		font-size: 15px;
+	}
+
+	.address, .reservation {
+		margin-left: 30px;
+    	margin-bottom: 50px;
+	}
+
+	.form {
+		margin-left: 30px;
+	}
+
+	.margin {
+		 margin-top: 30px;
+    	margin-bottom: 40px;
+	}
+
+	.send_btn {
+		margin-bottom: 30px;
+	}
+
+	.contact_info_block {
+		margin-top: 10px;
+	}
+}
+
+/*max-width 1024px
+======================================*/
+@media (max-width: 1024px) {
+	.container {
+		width: 80%;
+		max-width: 950px;
+		display: flex;
+	}
+	
+	.specials_item {
+		/*width: 1024px;*/
+		justify-content: center;
+	}
+
+	.img_item {
+		width: 220px;
+		height: 220px;
+	}
+
+	.description_item {
+		width: 220px;
+		height: 220px;
+	}
+
+	.menu_list_item {
+		padding: 10px;
+	}
+
+	.menu_list_item:hover {
+		padding: 9px;
+	}
+
+	.title_h1 {
+		font-size: 30px;
+	}
+	
+	.special_item_element1, .special_item_element5 {
+		flex-direction: row-reverse;
+	}
+
+	.special_item_element6, .special_item_element4 {
+		flex-direction: row;
+	}
+
+	.specials_title_h3 {
+		font-size:30px;
+	}
+
+	.about_us_text_p {
+		font-size: 20px;
+	}
+
+	.signature_img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_p {
+		font-size: 8px;
+	}
+
+	.contacts_h4 {
+		font-size: 15px;
+	}
+
+	.address, .reservation, .form {
+		margin-left: 20px;
+	}
+
+	.contacts_p {
+		font-size: 13px;
+	}
+
+	.input {
+		padding-left: 10px;
+    	padding-bottom: 5px;
+	}
+
+	.input::-webkit-input-placeholder {
+		font-size: 15px;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.send_btn {
+		padding: 10px 20px;
+	}
+
+	.social_menu_item_link {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+/*max-width 768px
+======================================*/
+
+@media (max-width: 770px) {
+	.container {
+		width: 80%;
+		max-width: 500px;
+		display: flex;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.menu-hidden {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: 10px;
+		margin-right: 15px;
+	}
+
+	.menu_list {
+		flex-direction: column;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+
+	.margin-bottom1 {
+		margin-bottom: 20px;
+	}
+
+	.menu_list_item_link {
+		font-size: 10px;
+
+	}
+
+	.display {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.display-header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.title_decoration_img {
+		width: 100px;
+	}
+
+	.title_h1 {
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+
+	.yellow_block_elements {
+		padding: 10px;
+	}
+
+	.yellow_block_img {
+		line-height: 1px; 
+    	height: 50px;
+	}
+
+	.yellow_block_photo {
+		width: 30px;
+		height: 30px;
+	}
+
+	.yellow_block_photo_kettle {
+		width: 50px;
+	}
+
+	.yellow_block_item_h2 {
+		margin-top: 0px;
+		margin-bottom: 5px;
+		font-size: 13px;
+	}
+
+	.yellow_block_item_p {
+		font-size: 5px;
+	}
+
+	.specials_title_h3 {
+		font-size: 15px;
+	}
+
+	.specials_title_h3 {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.specials_item {
+		justify-content: center;
+	}
+
+	.special_item_element1, .special_item_element5 {
+		flex-direction: row;
+	}
+
+	.special_item_element2, .special_item_element6 {
+		flex-direction: row-reverse;
+	}
+
+	.margin-bottom {
+		margin-bottom: 0px;
+	}
+
+	.about_us_text_p {
+		font-size: 12px;
+	}
+
+	.about_us_text_p {
+		margin-bottom: 0px;
+	}
+
+	.signature_img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.align-self {
+		align-self: flex-end;
+	}
+
+	.display-column {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price {
+		font-size: 7px;
+	}
+
+	.dishes_list_item_p {
+		font-size: 5px;
+	}
+
+	.display-menu {
+		display: flex;
+	}
+
+	.row {
+		flex-direction: row;
+	}
+
+	.dotted {
+		margin: 0 5px;
+	}
+
+	.contacts_h4 {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+
+	.contacts_p {
+		font-size: 6px;
+	}
+
+	.address, .reservation, .form {
+		margin-left: 10px;
+	}
+
+	.address {
+		margin-bottom: 30px;
+	}
+
+	.input {
+		padding-left: 5px;
+    	padding-bottom: 2px;
+	}
+
+	.input::-webkit-input-placeholder {
+		font-size: 10px;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	.margin {
+		margin-top: 10px;
+    	margin-bottom: 20px;
+	}
+
+	.send_btn {
+		font-size: 10px;
+		padding: 5px 10px;
+	}
+
+	.copyright_text {
+		font-size: 10px;
+	}
+
+	.social_menu_item_link {
+		width: 20px;
+		height: 20px;
+	}
+
+	.social_menu_item_img1 {
+		width: 10px;
+		height: 15px;
+	}
+
+	.social_menu_item_img2 {
+		width: 15px;
+		height: 15px;
+	}
+
+	.margin-right {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.special_item_element3 {
+		flex-direction: row;
+	}
+
+	.special_item_element4 {
+		flex-direction: row-reverse;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 80%;
+		max-width: 300px;
+		display: flex;
+	}
+
+	.img_item {
+		width: 150px;
+		height: 150px;
+	}
+
+	.description_item {
+		width: 150px;
+		height: 150px;
+	}
+
+	.menu-hidden {
+		margin-right: 0px;
+	}
+
+	.title_h1 {
+		font-size: 15px;
+    	line-height: 1
+	}
+
+	.margin-bottom1 {
+		margin-bottom:0px;
+	}
+
+	.yellow_block_elements {
+		display: none;
+	}
+
+	.yellow_block_elements-hidden {
+		display: flex;
+   		flex-direction: column;
+   		margin: 20px;
+	}
+
+	.col-md-17 {
+		justify-content: center;
+		display: flex;
+	}
+
+	.header-menu {
+		font-size: 15px;
+		color: white;
+    	font-weight: 700;
+    	text-shadow: 2px 2px 2px black, 5px 5px 5px yellow;
+	}
+
+	.menu_list {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.title_block {
+		margin-top: 10px;
+	}
+
+	.yellow_block_photo  {
+		width: 100px;
+		height: 100px;
+	}
+
+	.yellow_block_photo_kettle {
+		width: 100px;
+		height: 80px;
+	}
+
+	.yellow_block_img {
+		height: 100px;
+	}
+
+	.yellow_block_item_h2 {
+		margin-top: 20px;
+	    margin-bottom: 10px;
+	    font-size: 15px;
+	}
+
+	.yellow_block_item_p {
+		font-size: 10px;
+	}
+
+	.yellow_block_item {
+		margin-bottom: 10px;
+	}
+
+	.description_item_p  {
+		font-size: 10px;
+	}
+
+	.description_item_h4, .description_item_price {
+		font-size: 15px;
+	}
+
+	.description_item_h4 {
+		margin-bottom: 5px;
+	}
+
+	.dishes {
+		display: none;
+	}
+
+	.space-between {
+		display: contents;
+	}
+
+	.hidden {
+		display: flex;
+	}
+
+	.dishes_list_item_p {
+		font-size: 10px;
+	}
+
+	.dishes_list_item_h4, .dishes_list_item_price {
+		font-size: 15px;
+	}
+
+	.display-none1 {
+		display: none;
+	}
+
+	.contact_info_block1 {
+		display: flex;
+    	justify-content: center;
+    	flex-direction: column;
+    	align-items: center;
+	}
+
+	.address, .reservation, .form {
+		margin-left: 0px;
+	}
+
+	.address, .reservation {
+		text-align: center;
+	}
+
+	.reservation {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 430px) {
+
+	.special_item_element3 {
+		flex-direction: row;
+	}
+
+	.special_item_element4 {
+		flex-direction: row-reverse;
+	}
+}
+
+@media (max-width: 375px) {
+
+	.special_item_element3 {
+		flex-direction: row;
+	}
+
+	.special_item_element4 {
+		flex-direction: row-reverse;
+	}
+}
+
+@media (max-width: 320px) {
+
+	.special_item_element3 {
+		flex-direction: row;
+	}
+
+	.special_item_element4 {
+		flex-direction: row-reverse;
+	}
+}
