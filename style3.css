@@ -285,7 +285,14 @@ body {
 	background-size: 100% 100%;
 	display: flex;
     justify-content: center;
+}
 
+.sause-pan_img {
+	background: url(veggie_images/about_us_photo.png) no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	display: flex;
+    justify-content: center;
 }
 
 .sause-pan_img, .shadow {
