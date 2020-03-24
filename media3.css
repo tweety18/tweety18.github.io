@@ -121,6 +121,10 @@
 	.contact_info_block {
 		margin-top: 10px;
 	}
+
+	.hidden-img1 {
+		display: hidden;
+	}
 }
 
 /*max-width 1024px
@@ -218,6 +222,10 @@
 	.social_menu_item_link {
 		width: 40px;
 		height: 40px;
+	}
+
+	.hidden-img1 {
+		display: hidden;
 	}
 }
 
@@ -435,6 +443,14 @@
 	.margin-right {
 		margin-right: 5px;
 	}
+
+	.hidden {
+		display: none;
+	}
+
+	.hidden-img1 {
+		display: hidden;
+	}
 }
 
 @media (max-width: 768px) {
@@ -444,6 +460,10 @@
 
 	.special_item_element4 {
 		flex-direction: row-reverse;
+	}
+
+	.hidden-img1 {
+		display: hidden;
 	}
 }
 
@@ -590,6 +610,71 @@
 	.reservation {
 		margin-bottom: 20px;
 	}
+
+	.hidden-img {
+		display: none;
+	}
+
+	.white {
+		color: white;
+		font-weight: 700;
+	}
+
+
+	.input::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.input {
+		color: white;
+	}
+
+	.contacts_h4 {
+		font-size: 12px;
+	}
+	
+	.contacts_p {
+		font-size: 10px;
+	}
+
+	.baseline {
+		justify-content: space-around;
+    	align-items: baseline;
+	}
+
+}
+
+@media (max-width: 470px) {
+	.hidden-img {
+		display: none;
+	}
+
+	.white {
+		color: white;
+		font-weight: 700;
+	}
+
+	.input::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.input {
+		color: white;
+	}
+
+	.contacts_h4 {
+		font-size: 12px;
+	}
+	
+	.contacts_p {
+		font-size: 10px;
+	}
+
+	.baseline {
+		justify-content: space-around;
+    	align-items: baseline;
+	}
+
 }
 
 @media (max-width: 430px) {
@@ -601,6 +686,37 @@
 	.special_item_element4 {
 		flex-direction: row-reverse;
 	}
+
+	.white {
+		color: white;
+		font-weight: 700;
+	}
+
+	.hidden-img {
+		display: none;
+	}
+
+	.input::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.input {
+		color: white;
+	}
+
+	.contacts_h4 {
+		font-size: 12px;
+	}
+	
+	.contacts_p {
+		font-size: 10px;
+	}
+
+	.baseline {
+		justify-content: space-around;
+    	align-items: baseline;
+	}
+
 }
 
 @media (max-width: 375px) {
@@ -612,6 +728,37 @@
 	.special_item_element4 {
 		flex-direction: row-reverse;
 	}
+
+	.hidden-img {
+		display: none;
+	}
+
+	.white {
+		color: white;
+		font-weight: 700;
+	}
+
+	.input::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.input {
+		color: white;
+	}
+
+	.contacts_h4 {
+		font-size: 12px;
+	}
+	
+	.contacts_p {
+		font-size: 10px;
+	}
+
+	.baseline {
+		justify-content: space-around;
+    	align-items: baseline;
+	}
+
 }
 
 @media (max-width: 320px) {
@@ -623,4 +770,35 @@
 	.special_item_element4 {
 		flex-direction: row-reverse;
 	}
+
+	.hidden-img {
+		display: none;
+	}
+
+	.white {
+		color: white;
+		font-weight: 700;
+	}
+
+	.input::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.input {
+		color: white;
+	}
+
+	.contacts_h4 {
+		font-size: 12px;
+	}
+	
+	.contacts_p {
+		font-size: 10px;
+	}
+
+	.baseline {
+		justify-content: space-around;
+    	align-items: baseline;
+	}
+
 }

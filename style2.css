@@ -71,6 +71,8 @@ h2 {
 .menu_list_item_link {
 	text-decoration: none;
 	color: #a4aead;
+
+	
 }
 
 .menu_list_item:hover {
@@ -107,6 +109,7 @@ h2 {
 	border: none;
 	width: 140px;
 	padding: 8px;
+	color: #a4aead;
 }
 
 .btn_search {
@@ -157,6 +160,10 @@ h2 {
 
 .left_btn_margin {
 	margin-right: 10px;
+}
+
+button {
+	cursor: pointer;
 }
 
 .button_link {
