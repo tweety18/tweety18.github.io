@@ -37,8 +37,16 @@ h1, h2, h3, h4, h5, h6, button, label {
 	width: 25%;
 }
 
+.col-md-4 {
+	width: 34%;
+}
+
 .col-md-6 {
 	width: 50%;
+}
+
+.col-md-8 {
+	width: 66%;
 }
 
 .col-md-9 {
@@ -77,6 +85,7 @@ h1, h2, h3, h4, h5, h6, button, label {
     position: absolute;
     width: calc(200% + 3px);
     left: -1px;
+    z-index: 10;
 }
 
 .arrow {
@@ -154,6 +163,7 @@ h1, h2, h3, h4, h5, h6, button, label {
     padding-left: 15px;
     background: none;
     float: left;
+    outline: none;
 }
 
 .form_search:after {
@@ -210,11 +220,105 @@ h1, h2, h3, h4, h5, h6, button, label {
 
 .slider {
 	width: 100%;
-	height: 400px;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	background-color: rgba(30,90,147, .5);
 }
+
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+.prev-arrow{
+  left: -40px;
+  width: 0;
+  height: 0;
+  background: url(images/prev_arrow.png);
+  background-position: center center;
+  border:none;
+  width: 60px;
+  height: 60px;
+  outline: none;
+}
+
+.next-arrow {
+  right: -40px;
+  width: 0;
+  height: 0;
+  background: url(images/next_arrow.png) no-repeat;
+  background-position: center center;
+  border:none;
+  width: 60px;
+  height: 60px;
+  outline: none;
+}
+
+
+.img_iphone {
+	background: url(images/iphone_11.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    outline: none;
+}
+
+.img_imac {
+	background: url(images/Imac.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    outline: none;
+}
+
+.img_iwatch {
+	background: url(images/iwatch.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    outline: none;
+}
+
+.img_macbook {
+	background: url(images/macbook.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    outline: none;
+}
+
+.slide-item {
+	text-align: center;
+	height: 600px;
+	margin: 30px 0;
+}
+
+.slick-dots li img:nth-child(1) {
+    display: block;
+}
+
+.slick-dots li img:nth-child(2) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(1) {
+    display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(2) {
+    display: block;
+}
+
+.img_square, .img_square_active {
+	width: 10px;
+	height: 10px;
+	margin-right: 20px;
+}
+
 
 .device_type {
 	background-color: rgba(255, 255, 255, 0.3);
@@ -323,7 +427,7 @@ input[type="checkbox"] {
 .sort_by {
 	margin-top: 15px;
 	margin-bottom: 20px;
-	width: 219px;
+	width: 100%;
 	height: 40px;
 	padding: 5px 20px;
 	background-color: #2c71b8;
@@ -411,7 +515,7 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.btn_like:hover {
+.btn_like:hover, .liked {
 	background-image: url(images/like_white.png);
 	background-color: #2c71b8;
 }
@@ -467,6 +571,15 @@ input[type="checkbox"] {
 	font-weight: 700;
 	border: 1px solid #fff;
 	cursor: pointer;
+}
+
+.product-quantity {
+	margin-bottom: 18px;
+}
+
+.product_quantity_input {
+	width: 188px;
+	text-align: center;
 }
 
 

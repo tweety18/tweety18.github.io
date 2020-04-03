@@ -5,6 +5,9 @@
 	<title>Shop</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="selectize.css" />
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -89,7 +92,24 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="slider"></div>
+		<div class="slider">
+			<div class="container">
+				<div class="slider-block">
+				  <div class="slide-item">
+				  	<div class="img_iphone"></div>
+				  </div>
+				  <div class="slide-item">
+				  	<div class="img_imac"></div>
+				  </div>
+				  <div class="slide-item">
+				  	<div class="img_iwatch"></div>
+				  </div>
+				  <div class="slide-item">
+				  	<div class="img_macbook"></div>
+				  </div>
+			</div>
+			
+		</div>
 		<div class="container">
 			<div class="row">
 
@@ -150,10 +170,10 @@
 					</div>
 
 					<div class="row">
-						<div class="col-md-9">
+						<div class="col-md-8">
 							<h1 class="h1_text">Laptops and Tablets</h1>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-4">
 							<select name="sort by" class="sort_by">
 								<option value="price" class="sort_by_option">sort by price</option>
 								<option value="name" class="sort_by_option">sort by name</option>
@@ -180,6 +200,11 @@
 								<div class="desc_device_text"><span class="bold_text">Screen size:</span> 7 inches</div>
 								<div class="desc_device_text"><span class="bold_text">RAM:</span> 1GB</div>
 								<div class="price">$599<span class="coins">25</span></div>
+								<div class="product-quantity">
+				                  <button class="decrement-btn">-</button>
+				                  <input class="product_quantity_input" type="text" value='1'>
+				                  <button class="increment-btn">+</button>
+				                </div>
 								<button type="buton" value="more_info" class="two_btns more_details">more details</button>
 								<button type="buton" value="more_info" class="two_btns add_to_cart add-to-cart">add to cart</button>	
 							</div>
@@ -370,6 +395,10 @@
 		</div> <!-- container -->
 	</main>
 	<footer class="footer">Footer</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="selectize.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>

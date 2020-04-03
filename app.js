@@ -1,55 +1,89 @@
+// Like
+const likeButtons = document.querySelectorAll('.btn_like');
+console.log(likeButtons);
+
+for (let i = 0; i < likeButtons.length; i++) {
+	likeButtons[i].addEventListener('click', function() {
+		likeButtons[i].classList.toggle('liked');
+	})
+}
+
+
+// Slick slider
+$('.slider-block').slick({
+	dots: true,
+	autoplay: true,
+	autoplaySpeed: 5000,
+	customPaging : function(slider, i) {
+        return '<a href="#"><img src="images/square.png" class="img_square" /><img src="images/square_white.png" class="img_square_active" /></a>';
+    },
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+})
+
+// Insert product counter
+let productQuantityEl = document.querySelectorAll('.more_details');
+console.log(productQuantityEl);
+
+
+for (let i = 1; i < productQuantityEl.length; i++) {
+	productQuantityEl[i].insertAdjacentHTML('beforebegin', '<div class="product-quantity"><button class="decrement-btn">-</button> <input class="product_quantity_input" type="text" value="1"> <button class="increment-btn">+</button></div>')
+	}
+
+
+//change quantity
+let incrementBtn = document.querySelectorAll('.increment-btn');
+let decrementBtn = document.querySelectorAll('.decrement-btn');
+let quantityInput = document.querySelectorAll('.product_quantity_input');
+
+for (let i = 0; i < incrementBtn.length; i++) {
+	incrementBtn[i].addEventListener("click",function() {
+		let currentValue = +quantityInput[i].value;
+		let nextValue = currentValue + 1;
+		quantityInput[i].value = nextValue;
+		if(nextValue >= 5) {
+			incrementBtn[i].disabled = true;
+			decrementBtn[i].disabled = false
+		} else {
+			incrementBtn[i].disabled = false;
+			decrementBtn[i].disabled = false;
+		}
+	})
+}
+
+for (let i = 0; i < decrementBtn.length; i++) {
+	decrementBtn[i].addEventListener("click",function() {
+			let currentValue = +quantityInput[i].value;
+			let nextValue = currentValue - 1;
+			quantityInput[i].value = nextValue;
+			if(nextValue <= 1) {
+				decrementBtn[i].disabled = true;
+				incrementBtn[i].disabled = false;
+			} else {
+				decrementBtn[i].disabled = false;
+				incrementBtn[i].disabled = false;
+			}
+	})
+}
+	
+// Add to cart with product quantity
 const productsCountEl = document.getElementById("products_count");
-console.log(productsCountEl);
-
-// document.getElementsByClassName
-// document.getElementsByTagName
-
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
-// addToCartButtons.onclick = function () {
-// 	alert('Hello World')
-// }
+const productCountInput = document.querySelectorAll(".product_quantity_input");
+console.log(productCountInput);
 
-// addToCartButtons.addEventListener('click', function() {
-// 	alert('Hello World')
-// });
-
-// addToCartButtons.addEventListener('click', function() {
-// 	alert('Bye-bye')
-// } )
-
-// console.log(addToCartButtons);
 
 for (let i = 0; i < addToCartButtons.length; i++) {
 	addToCartButtons[i].addEventListener('click', function() {
-		// let prevProductsCount = +productsCountEl.textContent;
-		// productsCountEl.textContent = prevProductsCount + 1;
-		productsCountEl.textContent = +productsCountEl.textContent + 1;
+		productsCountEl.textContent = +productsCountEl.textContent + +productCountInput[i].value;
 	})
 }
 
+// Selectize
+$(function() {
+	$('.catalog__sort').selectize('sort by price', 'sort by name', 'sort by date', 'sort by popularity');
+});
 
 
-const likeBtnEl = document.querySelectorAll(".btn_like");
-console.log(likeBtnEl);
 
-
-
-for (let i = 0; i < likeBtnEl.length; i++) {
-	likeBtnEl[i].addEventListener('click', function() {
-		console.log(likeBtnEl[i].style.backgroundColor);
-
-		if (likeBtnEl[i].style.backgroundColor == '') {
-			likeBtnEl[i].style.backgroundColor = 'rgb(44, 113, 184)';
-			likeBtnEl[i].style.backgroundImage = 'url(images/like_white.png)'
-		} else {
-			likeBtnEl[i].style.backgroundColor = '';
-			likeBtnEl[i].style.backgroundImage = 'url(images/like.png)';
-
-		}
-
-		
-		console.log(likeBtnEl[i].style.backgroundColor);
-		
-	})
-}
 
