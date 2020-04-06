@@ -67,7 +67,7 @@ body {
 	width: 5%;
 }
 
-.menu-hidden {
+.burger_menu {
 	display: none;
 }
 
@@ -89,6 +89,7 @@ body {
 	margin-top: 50px;
 	margin-bottom: 315px;
 }
+
 
 .menu_list_item {
 	padding: 15px;
@@ -116,6 +117,159 @@ body {
 	line-height: 1.5;
 	margin-bottom: 40px;
 }
+
+
+.position_center {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*Burger Menu
+======================================*/
+
+.mobile_nav {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: none;
+}
+
+.mobile_position {
+	display: flex;
+    flex-direction: column
+}
+
+
+.c-burger {
+	display: block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	position: relative;
+	border: none;
+}
+
+
+
+.c-burger:focus{
+	outline: none;
+}
+
+.c-burger span {
+	display: block;
+	position: absolute;
+	top: 20px;
+    left: 2px;
+    right: 2px;
+    height: 5px;
+	background: black;
+}
+
+.c-burger span:before, .c-burger span:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: black;
+	content: "";
+}
+
+.c-burger span:before {
+	top: -15px;
+}
+
+.c-burger span:after {
+	bottom: -15px;
+}
+
+.c-burger_line  {
+	background: transparent;
+}
+
+.c-burger_line span {
+	transition: background 0s 0.3s
+}
+
+.c-burger_line span:before, .c-burger_line span:after {
+	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s, 0s;
+}
+
+.c-burger_line span:before {
+	transition-property: top, transform;
+}
+
+.c-burger_line span:after {
+	transition-property: bottom, transform;
+}
+
+.c-burger_line.is-active {
+	background: transparent;
+}
+
+.c-burger_line.is-active span {
+	background: none;
+}
+
+.c-burger_line.is-active span:before {
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+
+.c-burger_line.is-active span:after {
+	bottom: 0;
+	transform: rotate(45deg);
+}
+
+.c-burger_line.is-active span:before, .c-burger_line.is-active span:after {
+	transition-delay: 0s, 0.3s;
+}
+
+
+
+.burger_menu_list_item {
+	width: 100%;
+	padding: 15px;
+}
+
+.burger_menu_list_item:hover {
+	border: 1px solid yellow;
+	padding: 14px;
+}
+
+.burger_menu_list_item_link {
+	color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 30px;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+
+}
+
+.burger_menu {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	transition: all ease 1s;
+}
+
+.burger_menu_list {
+	display: none;
+}
+
+.nav-active {
+	display: block;
+}
+
 
 
 /*Main

@@ -11,24 +11,41 @@
 </head>
 <body>
 	<header>
-		<div class="header">
+		<div class="header" id="home">
 			<div class="container">
 				<div class="col-md-17">
-					<div class="col-md-10">
-						<div class="menu-hidden">
-							<ul class="menu_list">
-								<li class="menu_list_item"><a href="" class="menu_list_item_link header-menu">Home</a></li>
-								<li class="menu_list_item"><a href="#specials" class="menu_list_item_link header-menu">Specials</a></li>
-								<li class="menu_list_item"><a href="#about_us" class="menu_list_item_link header-menu">About</a></li>
-								<li class="menu_list_item"><a href="#menu" class="menu_list_item_link header-menu">Menu</a></li>
-								<li class="menu_list_item"><a href="#contacts" class="menu_list_item_link header-menu">Contact</a></li>
-							</ul>
-						</div> <!-- menu -->
-					</div>
-					<div class="col-md-7 display-header">
+						<div class="mobile_nav">
+							<div class="burger_menu">
+								<button class="c-burger c-burger_line">
+									<span></span>
+								</button>
+
+								<ul class="burger_menu_list">
+									<li class="burger_menu_list_item"><a href="#home" class="burger_menu_list_item_link">Home</a></li>
+									<li class="burger_menu_list_item"><a href="#specials" class="burger_menu_list_item_link">Specials</a></li>
+									<li class="burger_menu_list_item"><a href="#about_us" class="burger_menu_list_item_link">About</a></li>
+									<li class="burger_menu_list_item"><a href="#menu" class="burger_menu_list_item_link">Menu</a></li>
+									<li class="burger_menu_list_item"><a href="#contacts" class="burger_menu_list_item_link">Contact</a></li>
+								</ul>
+							</div>
+
+							<div class="title_block margin-bottom1 mobile_position">
+								<div class="title">
+									<h1 class="title_h1 header_title">Veggies es bonus vobis,<br> proinde vos postulo essum.</h1>
+								</div>
+								<div class="title_decoration">
+									<img src="veggie_images/title_decoration.png" alt="" class="title_decoration_img header_title_img">
+								</div>
+							</div>
+						</div>
+				
+							
+				
+					<div class="col-md-10 display-invisible"></div>	
+					<div class="col-md-7 display-header display-invisible">
 						<div class="menu">
 							<ul class="menu_list">
-								<a href="" class="menu_list_item_link">
+								<a href="#home" class="menu_list_item_link">
 									<li class="menu_list_item">Home</li>
 								</a>
 								<a href="#specials" class="menu_list_item_link">
@@ -45,7 +62,7 @@
 								</a>
 							</ul>
 						</div> <!-- menu -->
-						<div class="title_block margin-bottom1">
+						<div class="title_block margin-bottom1 hidden_title">
 							<div class="title">
 								<h1 class="title_h1">Veggies es bonus vobis,<br> proinde vos postulo essum.</h1>
 							</div>
@@ -62,7 +79,7 @@
 	<main>
 		<div class="yellow_block">
 			<div class="container">
-				<div class="col-md-17">
+				<div class="col-md-17 specials_item">
 					<div class="yellow_block_elements-hidden">
 							<div class="yellow_block_item">
 								<div class="yellow_block_img">
@@ -217,27 +234,50 @@
 
 		<div class="about_us" id="about_us">
 			<div class="container">
-				<div class="col-md-8_5 display-column">
-					<div class="title_block">
-							<h3 class="specials_title_h3 margin-top">About us</h3>
+				<div class="col-md-17">
+					<div class="mobile_nav">
+						<div class="title_block">
+								<h3 class="specials_title_h3 margin-top">About us</h3>
+						</div>
+						<div class="title_decoration margin-bottom">
+							<img src="veggie_images/title_decoration.png" alt="" class="title_decoration_img">
+						</div>
+						<div class="about_us_text">
+							<p class="about_us_text_p">
+								Nori grape silver beet broccoli kombu beet<br>greens fava bean potato quandong celery.<br> Bunya nuts black-eyed pea prairie turnip<br>leek lentil turnip greens parsnip.
+							</p>
+						</div>
+						<div class="signature align-self">
+							<img src="veggie_images/signature.png" alt="" class="signature_img">
+						</div>
+						<div class="shadow">
+							<div class="sause-pan_img"></div>
+						</div>
+
 					</div>
-					<div class="title_decoration margin-bottom">
-						<img src="veggie_images/title_decoration.png" alt="" class="title_decoration_img">
-					</div>
-					<div class="about_us_text">
-						<p class="about_us_text_p">
-							Nori grape silver beet broccoli kombu beet<br>greens fava bean potato quandong celery.<br> Bunya nuts black-eyed pea prairie turnip<br>leek lentil turnip greens parsnip.
-						</p>
-					</div>
-					<div class="signature align-self">
-						<img src="veggie_images/signature.png" alt="" class="signature_img">
-					</div>
-				</div> <!-- col-md-8_5 -->
-				<div class="col-md-8_5 display">
-					<div class="shadow">
-						<div class="sause-pan_img"></div>
-					</div>
-				</div> <!-- col-md-8_5 -->
+				
+					<div class="col-md-8_5 display-column display-invisible">
+						<div class="title_block">
+								<h3 class="specials_title_h3 margin-top">About us</h3>
+						</div>
+						<div class="title_decoration margin-bottom">
+							<img src="veggie_images/title_decoration.png" alt="" class="title_decoration_img">
+						</div>
+						<div class="about_us_text">
+							<p class="about_us_text_p">
+								Nori grape silver beet broccoli kombu beet<br>greens fava bean potato quandong celery.<br> Bunya nuts black-eyed pea prairie turnip<br>leek lentil turnip greens parsnip.
+							</p>
+						</div>
+						<div class="signature align-self">
+							<img src="veggie_images/signature.png" alt="" class="signature_img">
+						</div>
+					</div> <!-- col-md-8_5 -->
+					<div class="col-md-8_5 display display-invisible">
+						<div class="shadow">
+							<div class="sause-pan_img"></div>
+						</div>
+					</div> <!-- col-md-8_5 -->
+				</div>
 			</div> <!-- container -->
 		</div> <!-- about_us -->
 
@@ -273,209 +313,209 @@
 			</div>
 			<div class="col-md-17 space-between">
 				<div class="dishes hidden">
-						<ul class="dishes_list">
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
+					<ul class="dishes_list">
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
 
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>							
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SAMPHIRE FRITTERS WITH FENNEL CEVICHE</h4>
-									</div>
-									<div class="dotted"></div>
-										
-									<div class="price">
-										<p class="dishes_list_item_price">19$</p>
-									</div>
-								</div>	
-								<div class="description">
-									<p class="dishes_list_item_p">fresh samphire, plain flour, cornflower, eggs, fennel</p>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">13$</p>
-									</div>
-								</div>										
-								<div class="description">
-									<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>							
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SAMPHIRE FRITTERS WITH FENNEL CEVICHE</h4>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
-								</div>	
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">13$</p>
-									</div>
+								<div class="dotted"></div>
+									
+								<div class="price">
+									<p class="dishes_list_item_price">19$</p>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>	
+							<div class="description">
+								<p class="dishes_list_item_p">fresh samphire, plain flour, cornflower, eggs, fennel</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
-								</div>	
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">13$</p>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
+							</div>										
+							<div class="description">
+								<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>							
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SAMPHIRE FRITTERS WITH FENNEL CEVICHE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">19$</p>
-									</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">fresh samphire, plain flour, cornflower, eggs, fennel</p>
+							</div>	
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">13$</p>
-									</div>
-								</div>	
-								<div class="description">
-									<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">13$</p>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">13$</p>
-									</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>	
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
 								</div>
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
 								</div>
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-							<li class="dishes_list_item">
-								<div class="column">
-									<div class="name">
-										<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
-									</div>
-									<div class="dotted"></div>
-									<div class="price">
-										<p class="dishes_list_item_price">12$</p>
-									</div>
-								</div>	
-								<div class="description">
-									<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
-								</div>		
-							</li>
-						</ul>
-				</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
+								</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>							
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SAMPHIRE FRITTERS WITH FENNEL CEVICHE</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">19$</p>
+								</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">fresh samphire, plain flour, cornflower, eggs, fennel</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">13$</p>
+								</div>
+							</div>	
+							<div class="description">
+								<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
+								</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">PAN FRIED COURGETTE FLOWERS</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">13$</p>
+								</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">courgette flowers, goats cheese, red onion, pine nuts</p>
+							</div>
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
+								</div>
+							</div>
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+						<li class="dishes_list_item">
+							<div class="column">
+								<div class="name">
+									<h4 class="dishes_list_item_h4">SMOKED RICOTTA TERRINE</h4>
+								</div>
+								<div class="dotted"></div>
+								<div class="price">
+									<p class="dishes_list_item_price">12$</p>
+								</div>
+							</div>	
+							<div class="description">
+								<p class="dishes_list_item_p">ricotta, shallots, cheddar, capers</p>
+							</div>		
+						</li>
+					</ul>
+			</div> <!-- col-md-17 -->
 
-				<div class="col-md-7">
+				<div class="col-md-7 dishes">
 					<div class="dishes">
 						<ul class="dishes_list">
 							<li class="dishes_list_item">
@@ -592,9 +632,9 @@
 								</div>		
 							</li>
 						</ul>
-					</div>
+					</div> <!-- col-md-7 -->
 				</div> <!-- dishes hidden -->
-				<div class="col-md-7">
+				<div class="col-md-7 dishes">
 					<div class="dishes">
 						<ul class="dishes_list">
 							<li class="dishes_list_item">
@@ -719,7 +759,7 @@
 	</main>
 
 	<footer>
-		<div class="contacts" >
+		<div class="contacts" id="contacts" >
 			<div class="container wrap">
 				<div class="col-md-17 display-column hidden">
 					<div class="title_block">
@@ -898,5 +938,6 @@
 		</div> <!-- contacts -->
 		
 	</footer>
+	<script src="app3.js"></script>
 </body>
 </html>
