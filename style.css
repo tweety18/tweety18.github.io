@@ -416,7 +416,6 @@ input[type="checkbox"] {
 }
 
 .h1_text {
-	margin-top: 15px;
 	margin-left: 30px;
 	margin-bottom: 20px;
 	color: #fff;
@@ -424,6 +423,63 @@ input[type="checkbox"] {
 	font-weight: 700;
 }
 
+
+.selectize-input > * {
+	font-family: 'roboto';
+    font-weight: 300;
+    color: #fff;
+    font-size: 21px;
+}
+
+.selectize-dropdown, .selectize-input, .selectize-input input {
+	font-family: 'roboto';
+    font-weight: 300;
+    color: #fff;
+    font-size: 21px;
+}
+
+.selectize-input.full {
+	background-color: #2c71b8;
+	border-radius: 0;
+}
+
+.selectize-dropdown {
+	background-color: #2c71b8;
+}
+
+.selectize-input, .selectize-control.single .selectize-input.input-active {
+	background-color: #2c71b8;
+}
+.selectize-control.multi .selectize-input.disabled > div,
+.selectize-control.multi .selectize-input.disabled > div.active {
+	color: #2c71b8;
+}
+
+.selectize-dropdown .active {
+	color: #2c71b8;
+}
+
+.selectize-control.multi .selectize-input > div.active {
+	color: #2c71b8;
+}
+
+.selectize-control.multi .selectize-input.disabled > div,
+.selectize-control.multi .selectize-input.disabled > div.active  {
+	color: #2c71b8;
+}
+
+.selectize-control.single .selectize-input:after {
+    content: url(images/arrow_white.png);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 29px;
+    margin-top: -6px;
+    width: 0;
+    height: 0;
+    border: none;
+ }
+/*
 .sort_by {
 	margin-top: 15px;
 	margin-bottom: 20px;
@@ -445,7 +501,7 @@ input[type="checkbox"] {
 	color: #fff;
 	font-weight: 300;
 	font-size: 21px;
-}
+}*/
 
 .margin {
 	margin-left: 30px;

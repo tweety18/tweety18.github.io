@@ -80,8 +80,11 @@ for (let i = 0; i < addToCartButtons.length; i++) {
 }
 
 // Selectize
+
 $(function() {
-	$('.catalog__sort').selectize('sort by price', 'sort by name', 'sort by date', 'sort by popularity');
+	$('.select').selectize({
+					hideSelected: true
+				});
 });
 
 
